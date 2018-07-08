@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Erty The Web Browser</title>
+	<meta charset="utf-8">
+	<meta description="Ethan is a designer working with new and emerging technology to create interactive and memorable experiences">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Demo project with jQuery">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/projects.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.9.0/lazyload.min.js"></script>
+	
+	<script src="../js/scripts.js" type="text/javascript" charset="utf-8" async defer></script> 
+
+
+</head>
+<body>
+	<div class="header">
+		<div class="previous">
+			<a href="garden.html" title="">
+				<h1>PREVIOUS</h1>
+			</a>
+		</div>
+		<div class="name">
+			<a href="../index.html">
+				<h1>INDEX.HTML</h1>
+			</a>
+		</div>
+		<div class="next">
+			<a href="civicFlag.html" title="">
+				<h1>NEXT</h1>
+			</a>
+		</div>
+	</div>
+<!-- 	<div class="scrollHeader">
+		<div class="previous">
+			<a href="garden.html" title="">
+				<h1>PREVIOUS</h1>
+			</a>
+		</div>
+		<div class="name">
+			<a href="../index.html">
+				<h1>INDEX.HTML</h1>
+			</a>
+		</div>
+		<div class="next">
+			<a href="civicFlag.html" title="">
+				<h1>NEXT</h1>
+			</a>
+		</div>
+	</div> -->
+	<div class="projects">
+
+		<div class="row">
+			<div class="col">
+				<div class="sectionHeader">
+					<h1>Erty The Web Browser</h1>
+				</div>
+				<p class="projectDisc">Erty is a web browser that believes in scrolling less and surfing more. It takes its name from 3rd - 6th letters on the top row of keys of a traditional QWERTY keyboard incase you were wondering. Erty doesn’t behave like a normal web-browser, instead of a formal search bar any letters not separated by a space typed into Erty are treated as a search query. As you type Erty responds by searching your query and placing the resulting web page behind your words in real time. For example: when attempting to go to google.com in the Erty web browser you first type the letter g which would take you to g.com, then you would add the letter o taking you go.com and so on until you reach your destination. In this way Erty shows you all the websites in-between the sites you regularly visit. <br>
+					&emsp;&emsp;While using Erty like any other web browser is one way of using it, it is a waste of its potential. Once you use Erty normal web browsing seems horribly sluggish. To the right are two users testing out Erty for the first time. They start out hesitant but then begin experimenting with new types of urls, websites and one user even begins to roll their head across the keyboard to surf (you can probably tell when that starts to happen). <br>
+					&emsp;&emsp; In the second video our user begins to type l after l to see if anyone in their right mind would buy a domain consisting of just l's. After hitting multiple blank URLs in a row they actually happen upon a fascinating website somewhere around the 10th l. Using Erty allows users to explore domains that they would have never happened across using conventional browsers.
+				</p>
+			</div>
+
+			<div class="col">
+				<img class="projectImg lazyload" data-src="../img/erty/ertyTestOne.gif" alt="">
+				<img class="projectImg lazyload" data-src="../img/erty/ertyTestThree.gif" alt="">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="sectionHeader">
+					<h1>Erty Notation</h1>
+				</div>
+				<p class="projectDisc">When surfing with Erty interesting websites are sometimes hard to find in the vast sea of empty domains, and when you do they often appear as just a flash across the screen. In order to remedy this I created Erty notation. Erty notation boils down to a simple character placed under any letter that leads to a valid URL. To the right is an example, google, that leads to three valid websites: go.com, goog.com, and of course google.com. Hovering over any letter with a star under it will highlight the URL it corresponds to while hovering over a URL that leads to a dead end will turn red. Try it out! <br>
+				&emsp;&emsp; With Erty notation users can quickly find interesting website they previously found without having to re-type a (possibly very long and obsure) URL.
+				</p>
+			</div>
+
+			<div class="col ertyNotationCol">
+				<div class="ertyNotation">
+					<div class="ertyNotationPlayground">
+						<span class="ertyLetter letter1 ertyLetterinActive">G</span><span class="ertyLetter letter2">o</span><span class="ertyLetter ertyLetterinActive letter3">o</span><span class="ertyLetter letter4">g</span><span class="ertyLetter ertyLetterinActive letter5">l</span><span class="ertyLetter letter6">e</span>
+
+						<span class="ertyStar">*<span class="activeStar star1">*</span>*<span class="activeStar star2">*</span>*<span class="activeStar star3">*</span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="sectionHeader">
+					<h1>Tech Specs</h1>
+				</div>
+				<p class="projectDisc">Erty is built off of Electron with a reimplemented sandbox mode to allow for (relatively) save browsing across the web. Because of Erty's indiscrimination when browsing sites and the possibility of nefarious javascript actions Erty runs with javascript disabled. Erty caches any website accessed within the last 24hrs locally to deliver common websites nearly instantly. Erty was created in collaboration with <a href="http://philbayer.com/an-aleph" title="">Phil Bayer</a> under the guidance of <a href="https://chrisnovello.com/" title="">Chris Novello</a>.
+				</p>
+			</div>
+
+			<div class="col ertyNotationCol">
+		
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blanket Fort</title>
+	<meta charset="utf-8">
+	<meta description="Ethan is a designer working with new and emerging technology to create interactive and memorable experiences">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Demo project with jQuery">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/projects.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.9.0/lazyload.min.js"></script>
+	
+	<script src="../js/scripts.js" type="text/javascript" charset="utf-8" async defer></script> 
+
+</head>
+<body>
+	<div class="header">
+		<div class="previous">
+			<a href="bench.html" title="">
+				<h1>PREVIOUS</h1>
+			</a>
+		</div>
+		<div class="name">
+			<a href="../index.html">
+				<h1>INDEX.HTML</h1>
+			</a>
+		</div>
+		<div class="next">
+			<a href="font.html" title="">
+				<h1>NEXT</h1>
+			</a>
+		</div>
+	</div>
+	<div class="projects">
+		<div class="row">
+			<div class="col">
+				<div class="sectionHeader">
+					<h1>Blanket Fort</h1>
+				</div>
+				<p class="projectDisc">This project began as an exploration in evoking the feelings of comfort, nostalgia, and intimacy with the Internet. Much of the media content today is slanted towards forecasting a technodystopia. I challenged myself to find alternate ways of interacting with technology that might disrupt the never ending stream of content we are blasted with on the Internet. In order to do that I wanted to create my own Internet, a fresh start where I could imagine a totally different mode of interacting with digital media. I dubbed this the Innernet. To separate my Innernet from the larger “outernet” I decided to create a large portable Faraday cage blanket fort that would block radio waves while simultaneously broadcasting a small Innernet inside of its fabric confines. I chose a blanket fort as my Innernet vehicle to recall the adventures and make believe of my childhood and my ability to create real, interactive and intimate experiences now with the help of technology. <br>
+					&emsp;&emsp;Creating a mobile Faraday cage was not as easy a task as I thought it would be. Aside from the fact I knew almost nothing about Raspberry Pi’s let alone creating standalone networks off of them, Wifi signals are very slippery. Any small crack in the Faraday armor and the whole structure becomes useless. To combat this I created three separate layers of Wifi insulation inside of a hand sewn quilt that measured 12ft x 12ft. I used the most conductive material I could to make the Wifi shielding as effective as possible so that I could craft my own Internet inside of the confines of my blanket fort. This also meant that the Internet I crafted couldn’t be accessed from anywhere but inside the fort. By entering the fort you gain access to the Innernet and consent for a time to cut yourself off from technology at large and interact with a different proposal for how to connect with the media. I created specific pieces to highlight the propositions of this creative platform optimized for mobile.
+				</p>
+			</div>
+
+			<div class="col">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/EthanFort_01.jpg" alt="">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/EthanFort_02.jpg" alt="">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/blanket_fort4.jpg" alt="">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/EthanFort_05.jpg" alt="">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/EthanFort_03.jpg" alt="">
+			</div>
+		</div>	
+
+		<div class="row">
+			<div class="col">
+				<div class="sectionHeader">
+					<h1>Creating The Inner-Net</h1>
+				</div>
+				<p class="projectDisc">I devised the Innernet router out of a Raspberry Pi and a pillow. The Raspberry Pi 3 was an obvious choice: it has the computational capacity to run a simple apache server that would act as my “Innernet”. The Pi would create and host pages on the Apache server while attempting to find any other Internet connection, if it found one it would shutdown the Apache server. This meant that if the fort wasn’t properly setup and sealed the server would not start.<br>
+					&emsp;&emsp;The pillow was a bit less of an obvious choice. 
+					When I started thinking about alternate Internet platforms I thought a lot about intimacy, being physically and emotionally close to someone, as well as the feeling of nostalgia I got when visiting old web pages or playing old video games. Given that the actual router device was very small I knew that I could encase it with some kind of covering instilled with meaning. I chose an embroidered pillow because the only computer in our house used to be in my mother’s office, which was decorated with ornately embroidered pillows. I hoped that the object, a pillow with a long cable stretching out from it, would be interesting enough to draw people inside the fort to look at its embroidery which reads:
+					<br><br>
+				</p>
+				<div class="pillow">Instructions <br>
+					Step One: Connect to Blanket Fort Wifi. <br> <br>
+
+					Step Two: Go to a website you haven’t been <br>
+					to in a very long time. <br><br>
+				</div>
+				<p class="projectDisc">The reason for the last bit is partially technical and partially experiential. In order for me to serve them a page on my wifi I need them to send a request to the router I’ve set up on the Raspberry Pi. Once they search for their nostalgic website I perform a  man in the middle attack and serve them my own web pages instead of the web page they haven’t been to in a very long time. I find the juxtaposition of their expectation versus the actual content to be helpful in communicating my message.
+
+				</p>
+			</div>
+
+			<div class="col">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/blanket_fort14.jpg" alt="">
+				<!-- <img class="projectImg lazyload" src="../img/blanketFort/blanket_fort13.jpg" alt=""> -->
+				<img class="projectImg lazyload" data-src="../img/blanketFort/EthanFort_06.jpg" alt="">
+				<img class="projectImg lazyload" data-src="../img/blanketFort/blanket_fort15.jpg" alt="">
+			</div>
+		</div>	
+	</div>
+</div>
+</body>
+</html>
