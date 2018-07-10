@@ -327,6 +327,26 @@ video
 		padding: 10pt 10pt 0 10pt;
 	}
 
+	.projectImg
+	{
+		margin: 0 0 8pt 0;
+	}
+
+	.sectionHeader > h1
+	{
+		font-size: 20pt;
+	}
+
+	video
+	{
+		margin: 0 0 8pt 0;	
+	}
+
+	.ertyNotation
+	{
+		font-size: 50pt;
+	}
+
 }
 
 @media only screen and (max-width: 850px) and (min-width: 600px){
@@ -339,6 +359,8 @@ video
 	{
 		display: block;
 	}
+
+
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px){

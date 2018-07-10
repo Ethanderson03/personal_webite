@@ -137,6 +137,27 @@ a:hover
 	{
 		display: block;
 	}
+
+	.project
+	{
+		padding:0;
+		padding-bottom: 10pt;
+	}
+
+	.col
+	{
+		padding: 10pt 10pt 0 10pt;
+	}
+
+	.colLast
+	{
+		padding-top:0;
+	}
+
+	.tagLine
+	{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 650px){
