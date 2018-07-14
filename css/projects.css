@@ -61,11 +61,13 @@ span
 	padding: 0;
 }
 
-video
+iframe
 {
 	width: 100%;
 	margin: 0 0 30pt 0;
 }
+
+
 
 .header
 {
