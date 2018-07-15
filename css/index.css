@@ -72,6 +72,8 @@ a:hover
 .tagLine
 {
     font-family: glossy;
+    display: flex;
+    justify-content: space-between;
 }
 
 .projects
