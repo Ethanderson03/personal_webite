@@ -300,6 +300,11 @@ span
 	color:red;
 }
 
+.ertyLetterBr
+{
+	/*display: none;*/
+}
+
 .pillow
 {
 	text-align: center;
@@ -361,11 +366,6 @@ span
 		font-size: 50pt;
 	}
 
-	.ertyLetterBr
-	{
-		display: none;
-	}
-
 }
 
 @media only screen and (max-width: 850px) and (min-width: 600px){
@@ -395,4 +395,24 @@ span
 	{
 		font-size: 25pt;
 	}
+}
+
+@media only screen and (min-width: 1750px){
+	.ertyLetterBr
+	{
+		display: block;
+	}
+
+	.ertyNotation
+{
+	font-family: lab;
+	font-size: 140pt;
+	line-height: 112%;
+
+	display: table;
+
+	width: 100%;
+
+	text-align: center;
+}
 }
